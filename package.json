@@ -1,0 +1,29 @@
+{
+    "name": "fgo24-node-coffeeshop",
+    "version": "1.0.0",
+    "description": "Program pembayaran CLI",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js",
+        "lint": "eslint index.js src/**/*.js",
+        "lint:fix": "slint index.js src/**/*.js --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dwaysetya/fgo24-node-coffeeshop.git"
+    },
+    "keywords": [
+        "programCLI"
+    ],
+    "author": "Setya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dwaysetya/fgo24-node-coffeeshop/issues"
+    },
+    "homepage": "https://github.com/Dwaysetya/fgo24-node-coffeeshop#readme",
+    "dependencies": {
+        "numeral": "^2.0.6"
+    }
+}
